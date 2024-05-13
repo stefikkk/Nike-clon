@@ -1,0 +1,247 @@
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6d9d9;
+  font-family: sans-serif;
+
+}
+
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  color: #606b3e;
+  margin: 0;
+  font-size: 60px;
+  
+}
+
+
+
+.animated {
+  animation: fadeInUp 1.5s ease-in-out;
+  text-shadow: #003b46;
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+section{
+  padding: 7rem;
+background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://hips.hearstapps.com/hmg-prod/images/index-bomber-65a839208f31a.jpg?resize=2048:*) ;
+}
+
+
+
+.sectionanimated2 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://images.squarespace-cdn.com/content/v1/514e2866e4b04c6ad1836cea/1592248574513-AGVZ0WREVJU0ZWPH3RLG/Fa19_NikeJoyRideProdSup_Running_MensHeroColor_000368_HF1+copy.jpg?format=2500w) ;
+}
+
+
+
+.sectionanimated3 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://d1231c29xbpffx.cloudfront.net/store/productimage/433592/image/0450cf720f4bb2b7721c1fe597a112b3.png?Expires=1694414766&Signature=GLs5ANma0ytP5tuZk74v5W1e2TCB8eEhyDkngDz42isc0FeGXrNoztWLCoIh4EwCRj3YyadDL0VZeflhGRIa1RqQrx-sGjWYSZxgFIhljY6ePbV2WOwUN09~6NFTKD2Ua~UzrzaigJthRnYjVSR9L~BV8k1dsPHGUz2y5jRJiFK65ckOBpCDaI3~rwZpwrmea8DKEGLckzIiW4bx0CQSr8aFF8UdUGu5rfNsLzAWgEasYf4uv070E9x~b5x8APoTOYh3A4V6~Qne70vy-u4OWCmsCOY7cF2yAtJLa1bCM48SeA8oJav5cP4nhUbgMmrtmBsB3CPm9-St9pe-nnAPbw__&Key-Pair-Id=APKAIN6COYBF3ZQW7OQQ) ;
+}
+
+
+
+.sectionanimated4 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://sneakernews.com/wp-content/uploads/2023/07/Nike-Dunk-Low-FV0384-001-4.jpg?w=1140) ;
+}
+
+
+.sectionanimated5 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://static.nike.com/a/images/w_1920,c_limit/aaa89f57-78f0-4020-9c21-7f6cad23468a/nike-debuts-sabrina-ionescu-partnership-with-new-apparel-collection-and-footwear.jpg) ;
+}
+
+
+.sectionanimated6 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://wallpapers.com/images/hd/green-shoes-9rbyj8lqlc6txff7.jpg) ;
+}
+
+
+
+
+
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #456f9c;
+  color: #fff;
+  border-color: black;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+
+.btn:hover {
+  background-color: #2c3d4e;
+  transition: 0.6s linear;
+  box-shadow: 3px 5px 10px rgb(7, 54, 74) ;
+}
+
+
+
+
+.builder:hover {
+  position: absolute;
+  transition: 3s ease-in;
+}
+
+
+.details {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+
+
+
+nav a {
+  position: absolute;
+  left: -87px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+
+nav a:hover {
+  left: 0;
+  background-color: #caa584;
+}
+
+
+.novinka {
+  top: 20px;
+  background-color: #003b46;
+  position: fixed;
+}
+
+
+.dunky {
+  top: 80px;
+  background-color: #095458;
+  position: fixed;
+}
+
+
+.airmax {
+  top: 140px;
+  background-color:#66a5ad ;
+  position: fixed;
+}
+
+
+.nikebd {
+  top: 200px;
+  background-color:#7AB2B2;
+position: fixed;
+}
+
+
+
+.joyride {
+  top: 260px;
+  background-color:#CDE8E5;
+position: fixed;
+}
+
+
+.byyou {
+  top: 320px;
+  background-color:#c4dfe6;
+position: fixed;
+}
+
+
+
+
+.gallery {
+  margin: 1rem;
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  opacity: 0.1;
+  width: 150px;
+  transition: opacity 0.5s ease-out, width 0.5s ease-out, height 0.5s ease-out;
+}
+
+.gallery img:hover {
+  opacity: 1.5;
+  border: 4px solid #FF5F00;
+  width: 200px;
+  height: 120px;
+  padding: 5px;
+}
+
+
+header {
+ align-items: center;
+}
+
+
+
+
+footer {
+  background-color: #b98870;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
